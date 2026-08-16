@@ -1,0 +1,25 @@
+generated: '2026-08-16'
+method: probed
+source: live probes of https://www.geneostx.com/.well-known/* (apex geneostx.com 301s to www)
+host: https://www.geneostx.com
+note: >-
+  Every /.well-known/ path probed returned 404 on the canonical www host; the apex
+  geneostx.com 301-redirects to www before answering, so the apex results are the same
+  404s one hop later. Geneos Therapeutics serves no /.well-known/ discovery document of
+  any kind. This file records a verified ABSENCE — no WellKnown or SecurityTxt pointer
+  is wired in apis.yml, because no document was served.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404

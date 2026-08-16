@@ -1,0 +1,37 @@
+# Geneos Therapeutics
+
+> Clinical-stage (Phase 2b) biotherapeutics company in Philadelphia, Pennsylvania developing DNA-based personalized immunotherapies for cancer (PICs). Its GT-EPIC neoantigen-targeting platform sequences a patient's tumor, identifies targetable neoantigens, and encodes up to roughly 40 of them into a synthetic DNA plasmid drug product delivered intradermally with a plasmid-encoded IL-12 adjuvant and CELLECTRA electroporation. Spun out of Inovio Pharmaceuticals under an exclusive platform license. Clinical work to date in hepatocellular carcinoma (HCC) and glioblastoma (GBM).
+
+## API surface
+
+Geneos Therapeutics publishes NO public API. As of 2026-08-16 there is no developer portal,
+no API reference, no OpenAPI/AsyncAPI/GraphQL contract, no SDK in any public package registry,
+no GitHub organization, no MCP server and no A2A agent card. The corporate site runs WordPress;
+its /wp-json/ endpoint is CMS infrastructure, not a published product API, and is not catalogued
+as one. This is a therapeutics developer, not a software vendor — the absence is expected and
+is not a defect.
+
+## Company
+
+- [Geneos Therapeutics](https://www.geneostx.com/): Company home.
+- [Our Focus](https://www.geneostx.com/our-focus/): Personalized cancer immunotherapy focus.
+- [Scientific Approach](https://www.geneostx.com/scientific-approach/): How the therapy works.
+- [GT-EPIC Platform](https://www.geneostx.com/gt-epic-platform/): The neoantigen-targeting platform.
+- [Pipeline](https://www.geneostx.com/pipeline/): Clinical programs.
+- [Key Publications](https://www.geneostx.com/key-publications/): Peer-reviewed publications.
+- [Press Releases](https://www.geneostx.com/press-releases/): Company news.
+- [Events](https://www.geneostx.com/press-releases/events/): Conference and event appearances.
+- [Management](https://www.geneostx.com/about-us/management/): Leadership team.
+- [Board of Directors](https://www.geneostx.com/about-us/board-of-directors/): Board.
+- [HCC Advisory Panel](https://www.geneostx.com/about-us/hepatocellular-carcinoma-advisory-panel/): Clinical advisors.
+- [Our Collaborators](https://www.geneostx.com/our-collaborators/): Research and clinical collaborators.
+- [Investor & Media Resources](https://www.geneostx.com/who-we-are/investor-media-resources/): Investor materials.
+- [Careers](https://www.geneostx.com/join-us/): Open roles.
+- [Contact](https://www.geneostx.com/contact/): Contact the company.
+- [Privacy Policy](https://www.geneostx.com/privacy-policy/): Privacy policy.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/geneos-therapeutics/refs/heads/main/apis.yml): APIs.json profile for this company.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/geneos-therapeutics/refs/heads/main/security/geneos-therapeutics-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/geneos-therapeutics/refs/heads/main/well-known/geneos-therapeutics-well-known.yml): Recorded absence of every /.well-known/ discovery document.
