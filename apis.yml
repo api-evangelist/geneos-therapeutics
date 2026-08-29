@@ -10,6 +10,17 @@ description: 'Geneos Therapeutics is a clinical-stage (Phase 2b) biotherapeutics
   hepatocellular carcinoma (HCC) and glioblastoma (GBM) and is advancing toward a Phase
   2b HCC trial. Geneos is a therapeutics developer, not a software vendor: it publishes
   no public API, SDK, developer portal or machine-readable contract of any kind.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.geneostx.com/wp-content/uploads/2021/09/logo-color.svg
 url: https://raw.githubusercontent.com/api-evangelist/geneos-therapeutics/refs/heads/main/apis.yml
 x-type: company
